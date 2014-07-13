@@ -11,8 +11,8 @@
         "files": ["src/Hitar4Hiano.php"]
     },
     "require" : {
-        "kasonyang/hiano" : "0.1.0",
-        "kasonyang/hitar" : "0.1.0"
+        "kasonyang/hiano" : "*",
+        "kasonyang/hitar" : "*"
     },
     "license" : "MIT"
 }

@@ -9,7 +9,7 @@ namespace Hitar4Hiano;
 
 class Hitar4Hiano{
     static function init(){
-        $dbs = \Hiano\App\App::getConfig('hitar:database');
+        $dbs = \Hiano\App\App::getConfig()->get('hitar:database');
         $first = NULL;
         foreach($dbs as $dk => $dv){
             if($first === NULL){
